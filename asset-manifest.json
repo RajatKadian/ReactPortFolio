@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactPortFolio.git/static/css/main.2dbb0b7e.css",
+    "main.js": "/ReactPortFolio.git/static/js/main.7c8a7684.js",
+    "index.html": "/ReactPortFolio.git/index.html",
+    "main.2dbb0b7e.css.map": "/ReactPortFolio.git/static/css/main.2dbb0b7e.css.map",
+    "main.7c8a7684.js.map": "/ReactPortFolio.git/static/js/main.7c8a7684.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dbb0b7e.css",
+    "static/js/main.7c8a7684.js"
+  ]
+}
