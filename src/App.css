@@ -1,38 +1,22 @@
+
+
+.content {
+  flex-grow: 1; /* Allow the content to take up remaining vertical space */
+  overflow-y: auto; /* Enable vertical scrolling for content if needed */
+}
+
+/* Add any other custom styles for your header component */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  flex-basis: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Component {
+  flex-basis: calc(50% - 20px); /* Adjust width to accommodate spacing */
+  margin: 10px; /* Add spacing between components */
 }

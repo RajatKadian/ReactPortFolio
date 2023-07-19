@@ -1,0 +1,123 @@
+.header-container {
+  background-color: #54B689;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  width: 24%;
+  
+}
+
+
+.social-links a {
+  display: inline-block;
+  transform: scale(2); /* Adjust the scale factor as desired */
+  margin-right: 35px; /* Add spacing between icons */
+}
+
+
+
+
+.header-container p {
+  color: #ffffff;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+
+.header-container img {
+  width: 300px;
+  /* Adjust the width as desired */
+  height: 300px;
+  /* Adjust the height as desired */
+  border-radius: 50%;
+  /* Make the image circular */
+  border: 3px solid white;
+  /* Add a border and set its color */
+}
+
+.main-nav {
+  list-style: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0;
+}
+
+.main-nav a {
+
+  color: white;
+  text-decoration: none;
+
+}
+
+.main-nav li {
+  margin-right: 25px;
+}
+
+
+.main-nav a:hover,
+.main-nav a.active {
+  color: red;
+  text-decoration: none;
+}
+
+.main-nav a:active {
+  color: red;
+  text-decoration: none;
+}
+
+.social-links a {
+  padding: 20px;
+  /* Adjust the value to control the amount of space between links */
+  font-size: 20px;
+
+}
+
+
+.dividing-line {
+  width: 100%;
+  background-color: #ccc;
+  margin-top: 5px;
+  margin-bottom: 14px;
+}
+
+/* Reset default button styles */
+button {
+  border: none;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 8px 12px;
+  display: inline-block;
+  font-family: 'Your Chosen Font', sans-serif; /* Replace 'Your Chosen Font' with your desired font family name */
+}
+
+/* Styles for the Telegram emoji */
+.telegram-emoji {
+  margin-left: 5px;
+}
+
+/* Enlarging effect on hover */
+.enlarge-on-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.enlarge-on-hover:hover {
+  transform: scale(1.1);
+}
+
+/* Custom button styles */
+.custom-button {
+  background-color: #3498db; /* Replace with your preferred button background color */
+  color: #fff; /* Replace with your preferred button text color */
+  border-radius: 5px; /* Rounded corners for a more attractive look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+}
+
+/* Remove underline from link */
+a {
+  text-decoration: none;
+}

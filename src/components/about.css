@@ -1,0 +1,127 @@
+.about-container {
+  margin-left: 5%; /* Default margin value */
+  margin-top: 5%;
+ 
+  
+}
+
+  
+  .container {
+    display: flex;
+    
+  }
+  
+.card #name {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 4%;
+}
+
+  .profile {
+    flex: 1;
+    margin-left: -7%;
+
+  
+    
+    
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .profile-image {
+   
+    max-width: 75%;
+    max-height: 75%;
+  }
+
+  .profile p {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile h1 {
+   
+   
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    
+  }
+
+  .profile h2 {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    
+  }
+
+  .loopc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+  }
+  
+ 
+  .Ina {
+    background-color: red;
+  }
+
+  .about-container p {
+    font-size: 21px;
+   
+    font-family: Arial, sans-serif; /* Set the font family to Arial */
+  }
+  
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 43%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-left: 30%
+  }
+  
+  .card-content {
+    padding: 10px 0;
+  }
+  
+
+
+/* as */
+
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content p {
+  margin: 0;
+}
+
+/* Add any other custom styles for your about component */

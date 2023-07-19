@@ -1,0 +1,46 @@
+.card {
+    width: 40%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 21px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #54B689;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    /* ...existing card styles... */
+  }
+  

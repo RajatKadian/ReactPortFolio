@@ -1,0 +1,46 @@
+.work-container {
+    margin-left: 1%; /* Adjust the margin value as needed */
+    /* margin-top: -95%; */
+    width: 70%;
+    
+
+
+  }
+
+
+  .contact-container {
+    margin-left: 2%; /* Adjust the margin value as needed */
+    width: 70%;
+    margin-top: 4%;
+   
+    
+    
+
+
+  }
+
+  /* .work-container .card-hovered {
+    background-color: #54B689;
+  } */
+  
+
+  .contact-container {
+    font-size: 18px;
+  }
+  
+  .contact-container .MuiTypography-h5 {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  .contact-container .MuiTypography-body2 {
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+  }
+  
+  .work-container h1 {
+    text-align: center;
+    font-weight: bold;
+  }
